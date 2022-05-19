@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export async function getServerSideProps(req, res) {
   
-  await axios({
+  axios({
     url: "http://localhost:3000/api/registry",
     method: "post",
     data: req.req.headers
