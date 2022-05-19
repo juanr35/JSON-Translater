@@ -9,6 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.0",
+    "@vitalets/google-translate-api": "^8.0.0",
+    "axios": "^0.27.2",
+    "markdown-to-jsx": "^7.1.7",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.2.9",
     "next": "12.1.5",
     "react": "18.1.0",
     "react-dom": "18.1.0"
