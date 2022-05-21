@@ -46,7 +46,7 @@ function Main(props) {
     let res
     try {        
       res = await axios({
-        url: "http://localhost:3000/api/uploadJson",
+        url: "api/uploadJson",
         method: "post",
         data: values
       })
@@ -74,7 +74,7 @@ function Main(props) {
   const handleDownload = async (e) => {
     e.preventDefault();
     await axios({
-      url: "http://localhost:3000/api/download",
+      url: "api/download",
       method: "post",
       data: values
     })
